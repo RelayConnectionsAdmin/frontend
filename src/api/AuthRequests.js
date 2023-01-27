@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 
-const API = axios.create({ baseURL: 'https://erin-adventurous-oyster.cyclic.app' });
+const API = axios.create({ baseURL: 'https://backend-4g2lexwz2-relayconnectionsadmin.vercel.app/' });
 
 export const logIn= (formData)=> API.post('/auth/login',formData);
 
